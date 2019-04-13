@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="public/css/pure/pure-min.css" />
+  <link rel="stylesheet" href="public/css/pure/side-menu.css" />
+  <link rel="stylesheet" href="public/css/pure/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="icon" type="image/png" href="public/img/logo-fisica.png" />
+  <title>Carrera de Licenciatura en Física</title>
+</head>
+
+<body>
+  <div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+      <span></span>
+    </a>
+    <div id="menu">
+      <div class="pure-menu">
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item" id="logo">
+            <img class="pure-img-responsive" src="public/img/logo-fisica.png" alt="Logo fisica" />
+          </li>
+          <li class="pure-menu-item">
+            <a href="/fisica" class="pure-menu-link">Inicio</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="views/public/acreditacion" class="pure-menu-link">Rumbo a la <br />Acreditación</a>
+          </li>
+          <li class="pure-menu-item" id="submenu" onclick="desplegar(this)">
+            <a class="pure-menu-link">Información <i class="fas fa-angle-down"></i><br />
+              Institucional</a>
+            <ul id="submenu_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="views/public/mision-vision" class="pure-menu-link">Misión/Visión</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="views/public/objetivos" class="pure-menu-link">Objetivos de la <br />
+                  Carrera</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item" id="submenu1" onclick="desplegar(this)">
+            <a class="pure-menu-link">Estructura <i class="fas fa-angle-down"></i></a>
+            <ul id="submenu1_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Estructura <br />Orgánica</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="views/public/administracion-servicios" class="pure-menu-link">Administracion y <br />
+                  Servicios</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item" id="submenu2" onclick="desplegar(this)">
+            <a class="pure-menu-link">Información <i class="fas fa-angle-down"></i><br />Académica</a>
+            <ul id="submenu2_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="views/public/malla-curricular" class="pure-menu-link">Malla <br />Curricular</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="views/public/laboratorios" class="pure-menu-link">Laboratorios</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="views/public/calendario-academico" class="pure-menu-link">Calendario <br />Académico</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item" id="submenu3" onclick="desplegar(this)">
+            <a class="pure-menu-link">Recursos <i class="fas fa-angle-down"></i><br />
+              Bibliográficos</a>
+            <ul id="submenu3_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">PERI</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Biblioteca <br />
+                  General Fcyt</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Biblioteca <br />
+                  Especializada de <br />
+                  Física</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item" id="submenu4" onclick="desplegar(this)">
+            <a class="pure-menu-link">Proyectos <i class="fas fa-angle-down"></i></a>
+            <ul id="submenu4_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Modelación <br />
+                  Numerica de <br />
+                  Variables <br />
+                  Climaticas</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Rayos <br />
+                  Cosmicos</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Laboratorio <br />
+                  Asistido por <br />
+                  Comutador</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Descontaminac.<br />
+                  de Cianuro <br />
+                  por medio de <br />
+                  Oxido de <br />
+                  Titanio</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Simulaciones <br />
+                  Numericas en <br />
+                  Dinamica <br />Molecular</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Medición de <br />
+                  Ruido <br />
+                  Acústico</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Menitoreo de <br />
+                  Campos <br />
+                  Electromagnétic.</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Efecto de <br />
+                  los Cambios <br />
+                  Climaticos</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item" id="submenu5" onclick="desplegar(this)">
+            <a class="pure-menu-link">Interacción <i class="fas fa-angle-down"></i></a>
+            <ul id="submenu5_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Encuentro de <br />
+                  Astronomía</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Museo de <br />
+                  Física</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Física <br />
+                  Recreativa</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Participación <br />
+                  Facultativa</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Olimpiadas <br />
+                  Física</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Autoevaluación</a>
+          </li>
+          <li class="pure-menu-item" id="submenu6" onclick="desplegar(this)">
+            <a class="pure-menu-link">Centros de <i class="fas fa-angle-down"></i><br />Investigación</a>
+            <ul id="submenu6_">
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Aguas y <br />
+                  Saneamiento <br />
+                  Ambiental</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Centros de <br />
+                  Biotecnología</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Instituto de <br />
+                  Investigación de <br />
+                  la FCyT UMSS</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Unidad de <br />
+                  Limnología y <br />
+                  Recursos <br />
+                  Acuáticos</a>
+              </li>
+              <li class="pure-menu-item" id="sub-color">
+                <a href="" class="pure-menu-link">Estadística <br />
+                  Aplicada CESA</a>
+              </li>
+            </ul>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Sociedad <br />
+              Científica</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Publicaciones</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Cursos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="header">
+        <div class="pure-g">
+          <div class="pure-u-1-3" id="logo-umss">
+            <img width="200px" height="200px" class="pure-img-responsive" src="public/img/logo-umss.png"
+              alt="Logo umss" />
+          </div>
+          <div class="pure-u-1-3"></div>
+          <div class="pure-u-1-3" id="title">
+            <h2>Carrera de Física</h2>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h2 class="content-subhead title-aviso">
+          Avisos del departamento
+        </h2>
+        <div class="post">
+          <p class="title-post">
+            Invitacion al whorkshop de Angular
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="pure-g">
+            <div class="content-image">
+              <img class="pure-img-responsive" src="public/img/logo-umss.png" alt="Logo UMSS" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1" id="footer">
+        <div class="copyright">
+          <span>Derechos Reservados © 2019</span>
+        </div>
+        <div class="enlaces">
+          <a href="http://websis.umss.edu.bo/" target="_blanck">Websis</a><span> |</span>
+          <a href="http://www.umss.edu.bo/" target="_blanck">UMSS</a><span> |</span> <a
+            href="views/private/login">Acceder</a><span> |</span>
+          <a href="http://labfisica.fcyt.umss.edu.bo/" target="_blanck">Lab. Fisica</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="public/js/app.js" charset="utf-8"></script>
+</body>
+
+</html>

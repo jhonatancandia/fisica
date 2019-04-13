@@ -1,0 +1,109 @@
+#footer{
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+.copyright{
+  float: left;
+}
+
+.copyright span{
+  color: #003770;
+}
+
+.enlaces{
+  float: right;
+}
+
+.enlaces a{
+  text-decoration: none;
+  color: #003770;
+}
+
+.enlaces a:hover{
+  text-decoration: underline;
+}
+
+i{
+  float: right;
+  margin-right: 7px;
+  font-size: 10px;
+}
+
+#submenu_, #submenu1_, #submenu2_, #submenu3_, #submenu4_, #submenu5_, #submenu6_{
+  padding: 0;
+  display: none;
+}
+
+#submenu, #submenu1, #submenu2, #submenu3, #submenu4, #submenu5, #submenu6{
+  cursor: pointer;
+}
+
+#sub-color, #sub-color a{
+  background: #003770;
+  color: white;
+}
+
+.post{
+  border-bottom: 1px solid #eee;
+}
+
+.title-post{
+  color: #003770;
+}
+
+#title{
+  margin-top:30px;
+}
+
+#form{
+  margin-top: 10%;
+}
+#form-content{
+  border: 1px solid #eee;
+  padding: 1%;
+}
+
+.menu-private{
+  text-decoration: none;
+  color: #003770;
+  float: right;
+  margin-right: 3%;
+}
+
+.menu-private:hover{
+  text-decoration: underline;
+}
+
+.content-image{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 48em) {
+  #layout.active {
+      position: relative;
+      left: 150px;
+  }
+  /*New code add to this css archive by JCR*/
+  #logo-umss, #title{
+    width: 100%;
+  }
+
+  .copyright{
+    display: none;
+  }
+  .title-aviso{
+    text-align: center;
+  }
+}
+/*New code add to this css archive by JCR*/
+#logo{
+  border-bottom: 1px solid #eee;
+}
+
+.not-line{
+  border-bottom: 0;
+}
+
