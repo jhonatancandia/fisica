@@ -57,13 +57,6 @@
           Bibliográficos</a>
         <ul id="submenu3_">
           <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">PERI</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Biblioteca <br />
-              General Fcyt</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
             <a href="" class="pure-menu-link">Biblioteca <br />
               Especializada de <br />
               Física</a>
