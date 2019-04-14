@@ -30,7 +30,7 @@
         <a class="pure-menu-link">Estructura <i class="fas fa-angle-down"></i></a>
         <ul id="submenu1_">
           <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Estructura <br />Orgánica</a>
+            <a href="estructura-organica" class="pure-menu-link">Estructura <br />Orgánica</a>
           </li>
           <li class="pure-menu-item" id="sub-color">
             <a href="administracion-servicios" class="pure-menu-link">Administracion y <br />
@@ -57,7 +57,7 @@
           Bibliográficos</a>
         <ul id="submenu3_">
           <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Biblioteca <br />
+            <a href="biblioteca" class="pure-menu-link">Biblioteca <br />
               Especializada de <br />
               Física</a>
           </li>

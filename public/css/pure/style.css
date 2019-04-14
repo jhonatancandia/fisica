@@ -8,6 +8,10 @@
   float: left;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .copyright span{
   color: #003770;
 }
@@ -60,9 +64,19 @@ i{
 #form{
   margin-top: 10%;
 }
+
 #form-content{
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   padding: 1%;
+  background: white;
+}
+
+.input{
+  margin-top: 10px;
+}
+
+.input > button{
+  width: 100%;
 }
 
 .menu-private{
@@ -97,6 +111,30 @@ i{
   .title-aviso{
     text-align: center;
   }
+  .table-responsive table{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:980px){
+  .table-responsive{
+    overflow: scroll;
+  }
+
+  /*Code for login.php of section private*/
+  #form-content{
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #form{
+    padding: 20px;
+  }
+
+  .input > button{
+    width: 100%;
+    
+  }
 }
 /*New code add to this css archive by JCR*/
 #logo{
@@ -107,3 +145,16 @@ i{
   border-bottom: 0;
 }
 
+#main-login{
+  background: #f3f3f3;
+}
+
+.white{
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.login-title{
+  text-align:center; 
+  color: #003770;
+}
