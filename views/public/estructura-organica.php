@@ -29,12 +29,16 @@
           </p>
           <div class="pure-g">
             <div class="pure-u-1-2">
-              <img width="" height="" class="pure-img-responsive" src="../../public/img/logo-fisica.png" alt="Director de Carrera">
-              <p class="text-center">Lic. XXXXXXXX XXXXXX</p>
+              <p class="text-center">
+                <img width="300px" height="300px" class="pure-img-responsive" src="../../public/img/user.png" alt="Director de Carrera">
+              </p>
+              <p class="text-center">Lic. Fredy Flores Flores</p>
               <p class="text-center"><strong>Director de Carrera de Física</strong></p>
             </div>
             <div class="pure-u-1-2">
-              <img width="" height="" class="pure-img-responsive" src="../../public/img/logo-fisica.png" alt="Jefe de Departamento">
+              <p class="text-center">
+                <img width="300px" height="300px" class="pure-img-responsive" src="../../public/img/user.png" alt="Jefe de Departamento">
+              </p>
               <p class="text-center">Lic. René Moreira Calizaya</p>
               <p class="text-center"><strong>Jefe de Departamento de Física</strong></p>
             </div>
@@ -47,9 +51,9 @@
           <div class="pure-g">
             <div class="pure-u-1-3"></div>
             <div class="pure-u-1-3">
-              <img width="" height="" class="pure-img-responsive" src="../../public/img/logo-fisica.png" alt="Administrador del laboratorio">
-              <p class="text-center">Ing. XXXXXXXX XXXXXX</p>
-              <p class="text-center"><strong>Administrador del Laboratorio</strong></p>
+              <img width="350px" height="350px" class="pure-img-responsive" src="../../public/img/user.png" alt="Administrador del laboratorio">
+              <p class="text-center">Ing. Oscar Cuellar Olivera</p>
+              <p class="text-center"><strong>Administrador del Laboratorio de Física</strong></p>
             </div>
             <div class="pure-u-1-3"></div>
           </div>
