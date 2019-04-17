@@ -135,9 +135,6 @@
           </li>
         </ul>
       </li>
-      <li class="pure-menu-item">
-        <a href="#" class="pure-menu-link">Autoevaluación</a>
-      </li>
       <li class="pure-menu-item" id="submenu6" onclick="desplegar(this)">
         <a class="pure-menu-link">Centros de <i class="fas fa-angle-down"></i><br />Investigación</a>
         <ul id="submenu6_">
@@ -168,14 +165,8 @@
         </ul>
       </li>
       <li class="pure-menu-item">
-        <a href="#" class="pure-menu-link">Sociedad <br />
+        <a href="sociedad-cientifica" class="pure-menu-link">Sociedad <br />
           Científica</a>
-      </li>
-      <li class="pure-menu-item">
-        <a href="#" class="pure-menu-link">Publicaciones</a>
-      </li>
-      <li class="pure-menu-item">
-        <a href="#" class="pure-menu-link">Cursos</a>
       </li>
     </ul>
   </div>
