@@ -28,36 +28,23 @@
             Biblioteca Especializada de Física
           </p>
         </div>
-        <div class="table-responsive">
-          <table class="pure-table pure-table-horizontal">
-              <thead>
-                  <tr>
-                      <th>Nombre del libro</th>
-                      <th>Edicion</th>
-                      <th>Autor</th>
-                      <th>Nombre del libro</th>
-                      <th>Edicion</th>
-                      <th>Autor</th>
-                      <th>Nombre del libro</th>
-                      <th>Edicion</th>
-                      <th>Autor</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>hola</td>
-                      <td>aaa</td>
-                      <td>asd</td>
-                      <td>hola</td>
-                      <td>aaa</td>
-                      <td>asd</td>
-                      <td>hola</td>
-                      <td>aaa</td>
-                      <td>asd</td>
-                  </tr>
-              </tbody>
-          </table>
-        </div>
+        <p>
+          La biblioteca especializada se caracteriza, básicamente, por una particularidad temática tanto de su colección
+          como de los servicios de información prestados, es decir, que la importancia en un área o materia específica
+          del conocimiento, así como también en sus disciplinas vinculadas.
+        </p>
+        <p>
+          Los mismos son sostenidos por profesionales que cuentan con una formación también especializada, y que deben
+          efectuar un tratamiento documental exhaustivo para poder dar respuesta a demandas de informaciones complejas y
+          específicas. Esto sucede debido a que dichos servicios tiene como destinatarios a usuarios cuyo perfil se
+          acota a los ámbitos profesionales, científicos y técnicos. Así, la composición de la colección también refleja
+          unas características particulares, con el fin de poder responder a esas demandas.
+        </p>
+        <p>
+          De esta manera la biblioteca especializada de Física es exclusivamente para estudiantes de la carrera de
+          física, que pueda tener acceso a los distintos libros, documentos de investigaciones realizadas.
+        </p>
+        <p><strong>Puede encontrar la lista de libros <a href="">¡AQUÍ!</a></strong></p>
       </div>
     </div>
     <?php include '../layout/footer.php'; ?>
