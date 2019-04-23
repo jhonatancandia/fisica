@@ -5,10 +5,10 @@
   <div class="pure-menu">
     <ul class="pure-menu-list">
       <li class="pure-menu-item" id="logo">
-        <img class="pure-img-responsive" src="../../public/img/logo-fisica.png" alt="Logo fisica" />
+        <img class="pure-img-responsive" src="../public/img/logo-fisica.png" alt="Logo fisica" />
       </li>
       <li class="pure-menu-item">
-        <a href="../../" class="pure-menu-link">Inicio</a>
+        <a href="../" class="pure-menu-link">Inicio</a>
       </li>
       <li class="pure-menu-item">
         <a href="acreditacion" class="pure-menu-link">Rumbo a la <br />Acreditación</a>
@@ -67,14 +67,10 @@
         <a class="pure-menu-link">Proyectos <i class="fas fa-angle-down"></i></a>
         <ul id="submenu4_">
           <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Modelación <br />
+            <a href="modelacion-numerica" class="pure-menu-link">Modelación <br />
               Numerica de <br />
               Variables <br />
               Climaticas</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Rayos <br />
-              Cosmicos</a>
           </li>
           <li class="pure-menu-item" id="sub-color">
             <a href="" class="pure-menu-link">Laboratorio <br />
