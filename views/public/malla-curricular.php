@@ -14,7 +14,7 @@
       <div class="content">
         <div class="post not-line">
           <p class="title-post">Malla Curricular</p>
-          <embed src="../../public/files/malla_curricular.pdf" type="application/pdf" width="100%" height="500px">
+          <embed src="../public/files/malla_curricular.pdf" type="application/pdf" width="100%" height="500px">
         </div>
       </div>
     </div>
