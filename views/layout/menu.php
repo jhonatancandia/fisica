@@ -17,11 +17,11 @@
         <a class="pure-menu-link">Información <i class="fas fa-angle-down"></i><br />
           Institucional</a>
         <ul id="submenu_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="mision-vision" class="pure-menu-link">Misión/Visión</a>
+          <li class="pure-menu-item sub-color">
+            <a href="mision-vision" class="pure-menu-link" style="color: white;">Misión/Visión</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="objetivos" class="pure-menu-link">Objetivos de la <br />
+          <li class="pure-menu-item sub-color">
+            <a href="objetivos" class="pure-menu-link" style="color: white;">Objetivos de la <br />
               Carrera</a>
           </li>
         </ul>
@@ -29,11 +29,11 @@
       <li class="pure-menu-item" id="submenu1" onclick="desplegar(this)">
         <a class="pure-menu-link">Estructura <i class="fas fa-angle-down"></i></a>
         <ul id="submenu1_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="estructura-organica" class="pure-menu-link">Estructura <br />Orgánica</a>
+          <li class="pure-menu-item sub-color">
+            <a href="estructura-organica" class="pure-menu-link" style="color: white;">Estructura <br />Orgánica</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="administracion-servicios" class="pure-menu-link">Administracion y <br />
+          <li class="pure-menu-item sub-color">
+            <a href="administracion-servicios" class="pure-menu-link" style="color: white;">Administracion y <br />
               Servicios</a>
           </li>
         </ul>
@@ -41,14 +41,14 @@
       <li class="pure-menu-item" id="submenu2" onclick="desplegar(this)">
         <a class="pure-menu-link">Información <i class="fas fa-angle-down"></i><br />Académica</a>
         <ul id="submenu2_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="malla-curricular" class="pure-menu-link">Malla <br />Curricular</a>
+          <li class="pure-menu-item sub-color">
+            <a href="malla-curricular" class="pure-menu-link" style="color: white;">Malla <br />Curricular</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="laboratorios" class="pure-menu-link">Laboratorios</a>
+          <li class="pure-menu-item sub-color">
+            <a href="laboratorios" class="pure-menu-link" style="color: white;">Laboratorios</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="calendario-academico" class="pure-menu-link">Calendario <br />Académico</a>
+          <li class="pure-menu-item sub-color">
+            <a href="calendario-academico" class="pure-menu-link" style="color: white;">Calendario <br />Académico</a>
           </li>
         </ul>
       </li>
@@ -56,8 +56,8 @@
         <a class="pure-menu-link">Recursos <i class="fas fa-angle-down"></i><br />
           Bibliográficos</a>
         <ul id="submenu3_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="biblioteca" class="pure-menu-link">Biblioteca <br />
+          <li class="pure-menu-item sub-color">
+            <a href="biblioteca" class="pure-menu-link" style="color: white;">Biblioteca <br />
               Especializada de <br />
               Física</a>
           </li>
@@ -66,41 +66,24 @@
       <li class="pure-menu-item" id="submenu4" onclick="desplegar(this)">
         <a class="pure-menu-link">Proyectos <i class="fas fa-angle-down"></i></a>
         <ul id="submenu4_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="modelacion-numerica" class="pure-menu-link">Modelación <br />
+          <li class="pure-menu-item sub-color">
+            <a href="modelacion-numerica" class="pure-menu-link" style="color: white;">Modelación <br />
               Numerica de <br />
               Variables <br />
               Climaticas</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Laboratorio <br />
-              Asistido por <br />
-              Comutador</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Descontaminac.<br />
-              de Cianuro <br />
-              por medio de <br />
-              Oxido de <br />
-              Titanio</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Simulaciones <br />
-              Numericas en <br />
-              Dinamica <br />Molecular</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Medición de <br />
+          <li class="pure-menu-item sub-color">
+            <a href="medicion-ruido-acustico" class="pure-menu-link" style="color: white;">Medición de <br />
               Ruido <br />
               Acústico</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Menitoreo de <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Monitoreo de <br />
               Campos <br />
               Electromagnétic.</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Efecto de <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Efecto de <br />
               los Cambios <br />
               Climaticos</a>
           </li>
@@ -109,24 +92,8 @@
       <li class="pure-menu-item" id="submenu5" onclick="desplegar(this)">
         <a class="pure-menu-link">Interacción <i class="fas fa-angle-down"></i></a>
         <ul id="submenu5_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Encuentro de <br />
-              Astronomía</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Museo de <br />
-              Física</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Física <br />
-              Recreativa</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Participación <br />
-              Facultativa</a>
-          </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Olimpiadas <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Museo de <br />
               Física</a>
           </li>
         </ul>
@@ -134,28 +101,28 @@
       <li class="pure-menu-item" id="submenu6" onclick="desplegar(this)">
         <a class="pure-menu-link">Centros de <i class="fas fa-angle-down"></i><br />Investigación</a>
         <ul id="submenu6_">
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Aguas y <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Aguas y <br />
               Saneamiento <br />
               Ambiental</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Centros de <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Centros de <br />
               Biotecnología</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Instituto de <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Instituto de <br />
               Investigación de <br />
               la FCyT UMSS</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Unidad de <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Unidad de <br />
               Limnología y <br />
               Recursos <br />
               Acuáticos</a>
           </li>
-          <li class="pure-menu-item" id="sub-color">
-            <a href="" class="pure-menu-link">Estadística <br />
+          <li class="pure-menu-item sub-color">
+            <a href="" class="pure-menu-link" style="color: white;">Estadística <br />
               Aplicada CESA</a>
           </li>
         </ul>

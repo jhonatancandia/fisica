@@ -44,9 +44,8 @@ i{
   cursor: pointer;
 }
 
-#sub-color, #sub-color a{
+.sub-color{
   background: #003770;
-  color: white;
 }
 
 .post{
@@ -158,3 +157,4 @@ i{
   text-align:center; 
   color: #003770;
 }
+
