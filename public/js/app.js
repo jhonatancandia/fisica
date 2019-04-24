@@ -58,7 +58,7 @@ function desplegar(clase){
 /** Fin Funcion para el despegable del submenu */
 
 /** Desactivar el click derecho y para entrar en consola*/
-/*document.oncontextmenu = function(){
+document.oncontextmenu = function(){
   return false
 }
 document.onkeydown = function(){
@@ -75,5 +75,5 @@ document.onkeydown = function(){
   }
   
   
-}*/
+}
 /** Fin Desactivar el click derecho y para entrar en consola*/

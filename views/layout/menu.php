@@ -92,19 +92,9 @@
         <a class="pure-menu-link">Centros de <i class="fas fa-angle-down"></i><br />Investigación</a>
         <ul id="submenu6_">
           <li class="pure-menu-item sub-color">
-            <a href="" class="pure-menu-link" style="color: white;">Aguas y <br />
+            <a href="centro-de-aguas" class="pure-menu-link" style="color: white;">Aguas y <br />
               Saneamiento <br />
               Ambiental</a>
-          </li>
-          <li class="pure-menu-item sub-color">
-            <a href="" class="pure-menu-link" style="color: white;">Centros de <br />
-              Biotecnología</a>
-          </li>
-          <li class="pure-menu-item sub-color">
-            <a href="" class="pure-menu-link" style="color: white;">Unidad de <br />
-              Limnología y <br />
-              Recursos <br />
-              Acuáticos</a>
           </li>
         </ul>
       </li>
