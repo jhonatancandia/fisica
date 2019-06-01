@@ -8,7 +8,7 @@
         <img class="pure-img-responsive" src="../public/img/logo-fisica.png" alt="Logo fisica" />
       </li>
       <li class="pure-menu-item">
-        <a href="../" class="pure-menu-link">Inicio</a>
+        <a href="http://fisica.fcyt.umss.edu.bo/" class="pure-menu-link">Inicio</a>
       </li>
       <li class="pure-menu-item">
         <a href="acreditacion" class="pure-menu-link">Rumbo a la <br />Acreditación</a>

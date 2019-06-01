@@ -1,4 +1,5 @@
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Bienvenido a la web de fisica">
     <meta name="keywords" content="CARRERA DE FISICA, Física UMSS, fisica, física, FISICA, FISICA UMSS, fcyt fisica, carrera de física, DEPARTAMENTO DE FISICA UMSS, CARRERA DE FISICA UMSS">
     <link rel="stylesheet" href="../public/css/pure/pure-min.css">

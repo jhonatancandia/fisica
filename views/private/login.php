@@ -13,7 +13,7 @@
     <div class="header white">
         <div class="pure-g">
             <div class="pure-u-1">
-                <a class="menu-private" href="">Salir</a>
+                <a class="menu-private" href="http://fisica.fcyt.umss.edu.bo">Salir</a>
             </div>
         </div>
     </div>
